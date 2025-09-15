@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["./src/*"],
+			"@components/*": ["./src/components/*"],
+			"@pages/*": ["./src/components/pages/*"],
+			"@lib/*": ["./src/lib/*"],
+			"@data/*": ["./src/data/*"]
+		},
+		"types": ["node", "vite/client"],
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"strict": true
+	},
+	"files": [],
+	"references": [{ "path": "./tsconfig.app.json" }]
+}
