@@ -1,6 +1,5 @@
 import { FC } from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import { MantineProvider } from '@mantine/core'
 import HomePage from './components/pages/HomePage'
 
 const App: FC = () => {
@@ -19,11 +18,7 @@ const App: FC = () => {
 			},
 		}
 	)
-	return (
-		<MantineProvider>
-			<RouterProvider router={router}></RouterProvider>
-		</MantineProvider>
-	)
+	return <RouterProvider router={router}></RouterProvider>
 }
 
 export default App
