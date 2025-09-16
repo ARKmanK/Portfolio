@@ -20,6 +20,12 @@ section {
 	background-position: center;
 }
 
+@media (max-width: 768px) {
+	section {
+		/* background-size: 100% 100%; */
+	}
+}
+
 .bg-img-1 {
 	background-image: var(--background-image-1);
 }
