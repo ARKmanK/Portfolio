@@ -10,24 +10,24 @@ const HomePage = () => {
 				<ProfileCard />
 				<NavBar />
 				<section className='min-h-[100vh] bg-img-1'>
-					<div className='ml-[30%] pt-20'>
+					<div className='md:ml-[35%] lg:ml-[30%] ml-[5%] md:pt-20 pt-95'>
 						<p
-							className='inline-flex justify-center items-center gap-x-3 border-2 border-white rounded-xl pl-2 pr-3 py-1 text-lg'
+							className='inline-flex justify-center items-center gap-x-3 border-2 border-white rounded-xl pl-2 pr-3 py-1 xl:text-lg lg:text-base md:text-sm'
 							id='about'
 						>
-							<User size={22} />
+							<User className='xl:w-[24px] xl:h-[24px] lg:w-[21px] lg:h-[21px] md:w-[18px] md:h-[18px]' />
 							About
 						</p>
 					</div>
 					<About />
 				</section>
 				<section className='min-h-[100vh] bg-img-2'>
-					<div className='ml-[30%] pt-20'>
+					<div className='md:ml-[35%] lg:ml-[30%] ml-[5%] md:pt-20 pt-25'>
 						<p
-							className='inline-flex justify-center items-center gap-x-3 border-2 border-white rounded-xl pl-2 pr-3 py-1 text-lg'
+							className='inline-flex justify-center items-center gap-x-3 border-2 border-white rounded-xl pl-2 pr-3 py-1 xl:text-lg lg:text-base  md:text-sm scroll-mt-[375px]'
 							id='skills'
 						>
-							<BookOpenText size={22} />
+							<BookOpenText className='lg:w-[21px] lg:h-[21px] md:w-[18px] md:h-[18px]' />
 							Skills
 						</p>
 					</div>
