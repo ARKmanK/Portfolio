@@ -7,12 +7,12 @@ const NavBar = () => {
 				<ul className='flex flex-col justify-center items-center gap-y-2.5 p-2'>
 					<li>
 						<a className='navButton' href='#'>
-							<User />
+							<User className='xl:w-[25px] xl:h-[25px] lg:w-[23px] lg:h-[23px] md:w-[20px] md:h-[20px]' />
 						</a>
 					</li>
 					<li>
 						<a className='navButton' href='#skills'>
-							<BookOpenText />
+							<BookOpenText className='xl:w-[25px] xl:h-[25px] lg:w-[23px] lg:h-[23px] md:w-[20px] md:h-[20px]' />
 						</a>
 					</li>
 				</ul>
