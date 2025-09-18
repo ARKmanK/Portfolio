@@ -24,7 +24,7 @@ const HomePage = () => {
 				<section className='min-h-[100vh] bg-img-2'>
 					<div className='md:ml-[35%] lg:ml-[35%] ml-[5%] md:pt-28 pt-25 tag-2'>
 						<p
-							className='inline-flex justify-center items-center gap-x-3 border-2 border-white rounded-xl pl-2 pr-3 py-1 xl:text-lg lg:text-base  md:text-sm scroll-mt-[80px]'
+							className='inline-flex justify-center items-center gap-x-3 border-2 border-white rounded-xl pl-2 pr-3 py-1 xl:text-lg lg:text-base  md:text-sm scroll-mt-[50px]'
 							id='skills'
 						>
 							<BookOpenText className='lg:w-[21px] lg:h-[21px] md:w-[18px] md:h-[18px]' />

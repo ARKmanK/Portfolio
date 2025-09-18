@@ -6,14 +6,14 @@ const age = CountAge()
 const ProfileCard = () => {
 	return (
 		<>
-			<section className='fixed top-3 left-1/2 -translate-x-1/2 md:left-13 md:top-1/2 md:translate-x-0 transform md:-translate-y-1/2 flex md:flex-col border-2 border-gray-600 md:p-5 p-3 rounded-xl md:rounded-lg lg:rounded-xl lg:w-[23%] md:w-[26%] z-2 card w-[97%]'>
+			<section className='fixed top-3 left-1/2 -translate-x-1/2 md:left-13 md:top-1/2 md:translate-x-0 transform md:-translate-y-1/2 flex md:flex-col border-2 border-gray-600 md:p-5 p-3 rounded-xl md:rounded-lg lg:rounded-xl lg:w-[23%] md:w-[26%] z-2 card w-[97%] 2xl:w-[18%]'>
 				<div className='flex flex-col md:items-center md:justify-center pt-2 text-center items-center relative'>
 					<h1 className='text-white font-semibold md:mt-1 lg:text-xl md:text-base mt-2 text-lg max-w-60'>
 						Начинающий Frontend разработчик
 					</h1>
-					<p className='xl:flex lg:flex-col xl:gap-x-2 text-gray-200 lg:mt-7 md:mt-5 lg:text-lg md:text-sm mt-6 text-base w-[170px] text-center]'>
+					<h2 className='xl:flex lg:flex-col xl:gap-x-2 text-gray-200 lg:mt-7 md:mt-5 lg:text-lg md:text-sm mt-6 text-base w-[170px] text-center]'>
 						Артём Корепанов <span className='text-nowrap'>( {age} )</span>
-					</p>
+					</h2>
 				</div>
 				<div className='my-5 bg-cover bg-center flex items-center justify-center'>
 					<img
@@ -30,8 +30,8 @@ const ProfileCard = () => {
 							color='orange'
 						/>
 						<div className='md:flex flex flex-col'>
-							<p className='ml-2 lg:text-base md:text-sm city'>г. Красноярск</p>
-							<p className='ml-2 lg:text-base md:text-sm city'>Россия</p>
+							<h3 className='ml-2 lg:text-base md:text-sm city'>г. Красноярск</h3>
+							<h3 className='ml-2 lg:text-base md:text-sm city'>Россия</h3>
 						</div>
 					</div>
 				</div>
